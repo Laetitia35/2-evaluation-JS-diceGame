@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le jeu du dé</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+  <div class="container-md">
+
+    <div class="row row-cols-5">
+        <div class="newGame col-12">
+          <button class="btn btn-danger" type="button"> + New Game</button>
+        </div>
+
+        <div class="player1 col-4">PLAYER 1</div>
+        <div class="laMain col-4"></div>
+
+        <div class="player2 col-4">PLAYER 2</div>
+        <div class="scorePlayer1 col-4">0</div>
+        
+        <div class="Dé col-4">
+          <img src="images\dé-rouge.jpg" alt="dé-rouge" srcset="" width="250px" height="250px">
+        </div>
+        <div class="scorePlayer2 col-4">0</div>
+        <div class="current1 col-4">Current<br>0</div>
+        <div class="rollDice col-4">
+          <button type="button" class="btn btn-danger">Roll Dice</button>
+        </div>
+        <div class="current2 col-4">Current<br>0</div>
+        <div class="hold col-12">
+          <button class="btn btn-danger" type="button">Hold</button>
+        </div>
+
+    </div>
+  </div>
+
+    <script src="script.js"></script>   
+</body>
+</html>
